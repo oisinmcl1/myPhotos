@@ -1,8 +1,24 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    line-height: 1.6;
+    font-family: 'Curier New';
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
 }
+
+header {
+    text-align: center;
+    padding: 2rem;
+}
+
 h1 {
-    color: #333;
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    letter-spacing: 0.15rem;
+    font-weight: lighter;
 }
