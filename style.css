@@ -22,3 +22,24 @@ h2 {
     letter-spacing: 0.15rem;
     font-weight: lighter;
 }
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+a {
+    display: inline-block;
+    margin: 1rem;
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
