@@ -131,7 +131,8 @@ function loadGallery() {
         <figure class="photo">
           <img src="https://drive.google.com/thumbnail?id=${photo.id}"
                loading="lazy"
-               alt="Photo taken ${photo.caption}">
+               alt="Photo taken ${photo.caption}"
+               onclick="window.open('https://drive.google.com/uc?export=view&id=${photo.id}', '_blank')">
           <figcaption>${photo.caption}</figcaption>
         </figure>
       `;
