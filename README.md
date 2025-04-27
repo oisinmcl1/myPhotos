@@ -2,8 +2,6 @@ I wanted a simple way to display the photos I take with my camera.
 
 Instead of linking people to a google drive each image contains an ID which links to that image in the drive.
 
-(It's very slow when clicking the link to the images)
-
 I wanted to keep this as simple as possible with a static page which also allows me to host it with github pages.
 [Github Pages Link](https://oisinmcl1.github.io/myPhotos/)
 
