@@ -33,15 +33,15 @@ const photos = [
     },
     {
         id: '1qoOK-swn3qBaMV6VjpSBRQavmVtIyxhw',
-        caption: '12/08/2003 - malin head'
+        caption: '12/08/2003 - curiosity shop malin'
     },
     {
         id: '1bP-SKJdv-3dABJtcMCc7ZF4XQnlkozy_',
-        caption: '12/08/2003 - malin head'
+        caption: '12/08/2003 - curiosity shop malin'
     },
     {
         id: '1lew7N_PEMGGDwN0hYgup_sFFTSG45NIA',
-        caption: '12/08/2003 - malin head'
+        caption: '12/08/2003 - curiosity shop malin'
     },
     {
         id: '1n7boBvCT5-eskKvpIBGmtOlJWY-qpoL4',

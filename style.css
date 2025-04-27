@@ -1,5 +1,5 @@
 body {
-    font-family: 'Curier New';
+    font-family: 'Courier New', monospace;
     margin: 0;
     padding: 0;
     background-color: whitesmoke;
@@ -23,13 +23,43 @@ h2 {
     font-weight: lighter;
 }
 
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+/* trying to get a nice photo layout with the 2 sizes is awful difficult */
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
+.photo {
+    margin: 0;
+    break-inside: avoid;
+    display: flex;
+    flex-direction: column;
+    aspect-ratio: 3/4;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    flex: 1;
+}
+
+.photo img:hover {
+    opacity: 0.9;
+}
+
+.photo figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center;
+    padding: 0 0.5rem;
+}
 
 footer {
     text-align: center;
